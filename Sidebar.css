@@ -1,0 +1,36 @@
+.sidebar {
+  height: 100vh;
+  width: 250px;
+  background-color: #333;
+  color: white;
+}
+
+.sidebar-list {
+  padding: 0;
+}
+
+.sidebar-list li {
+  padding: 10px;
+}
+
+.sidebar-list li a {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown-list {
+  list-style: none;
+  padding: 0;
+  margin-left: 20px;
+}
+
+.dropdown-list li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dropdown-list li:hover {
+  background-color: #555;
+}
